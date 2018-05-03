@@ -2,7 +2,7 @@
 
 const checkdigit = require('checkdigit')
 
-module.exports = (accountNumber) => {
+module.exports = function (accountNumber) {
   if (!accountNumber) {
     throw new Error('Missing required input: account number')
   }
