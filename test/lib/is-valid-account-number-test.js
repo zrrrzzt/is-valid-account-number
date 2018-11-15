@@ -7,7 +7,7 @@ tap.throws(
   () => {
     isValidAccountNumber()
   },
-  {message: 'Missing required input: account number'},
+  { message: 'Missing required input: account number' },
   'throws if input is missing'
 )
 
@@ -15,7 +15,7 @@ tap.throws(
   () => {
     isValidAccountNumber(123)
   },
-  {message: 'Wrong length. Account number must be 11 digits'},
+  { message: 'Wrong length. Account number must be 11 digits' },
   'throws if input is too short'
 )
 
@@ -23,7 +23,7 @@ tap.throws(
   () => {
     isValidAccountNumber(123456789031234)
   },
-  {message: 'Wrong length. Account number must be 11 digits'},
+  { message: 'Wrong length. Account number must be 11 digits' },
   'throws if input is too long'
 )
 
