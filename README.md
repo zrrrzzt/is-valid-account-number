@@ -15,8 +15,6 @@ $ npm i is-valid-account-number
 ## Usage
 
 ```JavaScript
-'use strict'
-
 const isValidAccountNumber = require('is-valid-account-number')
 
 isValidAccountNumber(12345678903) // => true
