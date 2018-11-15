@@ -9,6 +9,9 @@
     "url": "https://github.com/zrrrzzt"
   },
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "engines": {
     "node": ">=10.13.0"
   },
